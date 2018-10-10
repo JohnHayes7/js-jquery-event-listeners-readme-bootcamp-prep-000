@@ -13,9 +13,9 @@ function frameIt(){
 function pressIt(){
   $('form').on('keydown', function(){
     if(key.which == 71){
-      alert("You have pressed 'G'")
+      alert("You have pressed 'G'");
     }
-  })
+  });
 }
 
 $(document).ready(function(){
